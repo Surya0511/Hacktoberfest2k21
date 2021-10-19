@@ -9,6 +9,7 @@ struct TrieNode
     int isEndOfWord; 
     int count;
 }; 
+P=6
 int search(struct TrieNode *root, char *key);
 struct TrieNode *getNode() 
 { 
