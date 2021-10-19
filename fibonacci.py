@@ -1,6 +1,6 @@
 def Fibonacci(n):
     if n<0:
-        print("Incorrect input")
+        print("Incorrected input")
     # First Fibonacci number is 0
     elif n==0:
         return 0
