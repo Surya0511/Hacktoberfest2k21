@@ -6,16 +6,15 @@ int main() {
    
    number = 16;
 
-   for(loop = 2; loop < number; loop++) {
+   for(loop = 2; loop < number/2+1; loop++) {
       if((number % loop) == 0) {
          prime = 0;
       }
    }
-   Print("hi")
 
    if (prime == 1)
       printf("%d is a prime number.", number);
    else
-      printf("%d is not a prime number.", number);
+      printf("%d is a composite number.", number);
    return 0;
 }
