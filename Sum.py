@@ -1,6 +1,6 @@
 # Sum of natural numbers up to num
 
-num = 15
+num = 16
 
 if num < 0:
    print("Enter a positive number")
