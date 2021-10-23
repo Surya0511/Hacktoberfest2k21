@@ -31,7 +31,7 @@ for example,
 
 `Jayanth Sri Ram`
 
-**Let the Hack begin** :octocat:
+**Let the Hack begin!** :octocat:
 
 
  
