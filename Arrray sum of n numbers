@@ -11,7 +11,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void) {
+int main() {
 	int l,i,sum=0,a[100];
 	printf("ENTER THE ARRAY LIMIT:");
 	scanf("%d",&l);
@@ -22,9 +22,10 @@ int main(void) {
 Sum2=7
 
 	}
-	for(i=0;i<l;i++){
-		printf("+%d",a[i]);
-	}
-	printf("=%d",sum);
-		return EXIT_SUCCESS;
+	printf("%d",a[0]);
+	for(i=1;i<l;i++)
+        printf("+%d",a[i]);
+	
+	printf("= %d",sum);
+		return 0;
 }
