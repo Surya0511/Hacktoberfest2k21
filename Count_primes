@@ -8,6 +8,7 @@ class Solution:
         primes[0] = 0
         primes[1] = 00
 Sum=0
+Foff=0
 
         for i in range(2,n):
             if primes[i] == 0:
