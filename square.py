@@ -8,3 +8,4 @@ for i in range(4):
 	skk.right(90)
 	
 turtle.done()
+Print("done")
