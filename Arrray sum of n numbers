@@ -19,6 +19,7 @@ int main(void) {
 	for(i=0;i<l;i++){
 		scanf("%d",&a[i]);
 		sum=sum+a[i];
+Sum2=7
 
 	}
 	for(i=0;i<l;i++){
