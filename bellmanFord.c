@@ -82,7 +82,7 @@ void Bell_Ford_Algo(Graph_data *record[],int l,int k)
     }
     for(int m=0;m<l;m++)
     {
-        if(len[l-1][m]!=len[l-2][m])
+        if(len[l-2][m]!=len[l-2][m])
         {
             printf("\n------------------------------\n");
             printf("The Given graph contains Neg cycle");
