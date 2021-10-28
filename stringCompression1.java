@@ -27,7 +27,7 @@ public class stringCompression1 {
         String s=scn.nextLine();
         System.out.println(Compression(s));
         
-        
+
     }
 }
 
